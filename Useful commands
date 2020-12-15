@@ -1,0 +1,8 @@
+random = 100 + (int)(Math.random()*((1000-1) +1));
+
+Thread.sleep(2000);
+new Select(driver.findElement
+
+public void i_verify_that_user_is_logged_in(String user) throws Throwable {
+Assert.assertEquals(user , driver.findElement(By.cssSelector("#header > div.nav > div > div > nav > div:nth-child(1) > a > span")).getText());
+
